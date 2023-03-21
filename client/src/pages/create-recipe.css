@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+.create-recipe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 500px;
+}
+  .create-recipe form {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-recipe h2{
+    font-weight: 500;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    font-family: 'Lobster', cursive;
+}
+
+label{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+button{
+    font-size: 20px;
+}
+
+.IngredientButton{
+    cursor: pointer;
+    padding: 8px 0px;
+    background: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 40%;
+}
+
+
+
+.recipeSubmit{
+    margin-top: 20px;
+    padding: 6px 0;
+    width: 45%;
+    border-radius: 11px;
+    
+    margin: 20px auto;
+    cursor: pointer;
+
+    background: linear-gradient(to right, rgb(235, 232, 232) 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+
+}
+
+button:hover{
+    background-position: left bottom;
+}
+
+.recipeSubmit:hover{
+    color: black;
+}

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.head-logo{
+    font-family: 'Fasthand', cursive;
+    position: absolute;
+    font-size: 35px;
+    top: 5px;
+    left: 20px;
+
+}
+
+.navbar button{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 7px 12px;
+    border-radius: 9px;
+}
+
+.nav-button{
+    position: absolute;
+    top: 24px;
+    right: 30px;
+}
+
+.round-box img{
+    border-radius: 50% !important;
+}
+
